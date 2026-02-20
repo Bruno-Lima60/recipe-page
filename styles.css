@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  font-family: "Outfit";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: hsl(14, 100%, 83%);
+  padding: 2.5rem;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 600px;
+  background-color: white;
+  display: grid;
+  padding: 1.6em;
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.main-title {
+  font-family: "Young Serif";
+  font-size: 32px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+  color: hsl(24, 5%, 18%);
+}
+
+.title {
+  font-family: "Young Serif";
+  font-size: 26px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+  color: hsl(14, 45%, 36%);
+}
+
+.preparation-time {
+  background-color: hsl(331, 100%, 96%);
+  padding: 1.1rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+#preparation-title {
+  color: hsl(332, 51%, 32%);
+}
+
+table {
+  border-spacing: 10px;
+  min-width: 20%;
+}
+
+.align-left {
+  text-align: left;
+  padding: 2%;
+  color: hsl(30, 10%, 34%);
+}
+
+.align-right {
+  text-align: right;
+  padding: 2%;
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+.description,
+#ingredients-text,
+#preparation-text,
+#instruction-text {
+  color: hsl(30, 10%, 34%);
+}
+
+#instruction-text li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+footer a {
+  color: blueviolet;
+}
